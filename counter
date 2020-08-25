@@ -1,7 +1,7 @@
 import math
 
 print ("money counter tm 2020")
-dollarbils = input("how many dollar bills")
+dollarbills = input("how many dollar bills")
 fivebills = input("how many five dollars  bills")
 tenbills = input("how many ten dollar bills")
 twentybills = input("how many twenty dollar bills")
