@@ -1,6 +1,6 @@
 import math
 
-print ("money counter(tm) 2020)
+print ("money counter tm 2020)
 print ("how many dollar bills")
 dollarbils = input
 print ("how many five dollars  bills")
