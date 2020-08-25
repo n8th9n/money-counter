@@ -1,2 +1,4 @@
 import math
 
+print ("how many dollar bills")
+input
