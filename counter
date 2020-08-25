@@ -5,5 +5,7 @@ dollarbils = input("how many dollar bills")
 fivebills = input("how many five dollars  bills")
 tenbills = input("how many ten dollar bills")
 twentybills = input("how many twenty dollar bills")
-
-print(
+pennies = input ("how many pennies")
+nickels = input ("how many nickels")
+dimes = input ("how many dimes")
+quarters = input ("how many quarters")
