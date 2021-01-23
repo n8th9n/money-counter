@@ -1,13 +1,28 @@
 import math
 
 print ("money counter tm 2020")
-dollarbills = input("how many dollar bills")
-fivebills = input("how many five dollars  bills")
-tenbills = input("how many ten dollar bills")
-twentybills = input("how many twenty dollar bills")
-pennies = input ("how many pennies")
-nickels = input ("how many nickels")
-dimes = input ("how many dimes")
-quarters = input ("how many quarters")
+dollarbills = input("how many dollar bills: ")
+a = float(dollarbills)
+fivebills = input("how many five dollars  bills: ")
+b = float(fivebills)
+tenbills = input("how many ten dollar bills: ")
+c = float(tenbills)
+twentybills = input("how many twenty dollar bills: ")
+d = float(twentybills)
+pennies = input ("how many pennies: ")
+e = float(pennies,10)
+nickels = input ("how many nickels: ")
+f = float(nickels)
+dimes = input ("how many dimes: ")
+g = float(dimes)
+quarters = input ("how many quarters: ")
+h = float(quarters)
 
-total = dollarbills + fivebills + tenbills + twentybills + pennies + nickels + dimes + quarters
+int_age = float(a + b + c + d + e + g + f + h)
+print(int_age)
+
+
+
+if int_age > 100:
+	print("The cash registar is over one hundred dollars drop this amount")
+	print(int_age - 100)
